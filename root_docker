@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: course-management-backend
+    env: dotnet
+    buildCommand: "dotnet build"
+    startCommand: "dotnet CourseManagementSystem.API.dll"
+    publishPath: "bin/Release/net6.0"
